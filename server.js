@@ -951,4 +951,3 @@ app.listen(PORT, () => {
   console.log(`   Firebase: ${env.FIREBASE_DATABASE_URL ? '✅ configured' : '❌ MISSING'}`);
   console.log(`   Bot Token: ${env.BOT_TOKEN ? '✅ configured' : '❌ MISSING'}`);
 });
-
